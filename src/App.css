@@ -1,0 +1,114 @@
+src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.task-list {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+}
+
+.task-content input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.task-content input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.actions button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  outline: none;
+  margin-left: 5px;
+}
+
+.actions button:hover {
+  background-color: #c0392b;
+}
+
+.task-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-form input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.task-form button {
+  flex-shrink: 0;
+  margin-left: 10px;
+} 
+
+
